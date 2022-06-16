@@ -6,6 +6,5 @@ const port = process.env.PORT || 3000;
 
 server.use(middlewares);
 server.use(router);
-app.use('/', require('routes.json'))
 
 server.listen(port);
