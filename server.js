@@ -8,7 +8,7 @@ server.use(middlewares);
 server.use(router);
 
 server.use(jsonServer.rewriter({
-    "/employer/*": "/employer"
+    "/employer/*": "/employer/"
 }));
 
 server.listen(port);
