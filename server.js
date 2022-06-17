@@ -5,7 +5,7 @@ const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 
 server.use(jsonServer.rewriter({
-    "/employer/*": "/employer/"
+    "/employer/000007": "/employer/"
 }));
 
 server.use(middlewares);
